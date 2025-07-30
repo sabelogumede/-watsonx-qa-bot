@@ -1,0 +1,44 @@
+# Python
+# Python 2.x bytecode
+*.pyc
+*.pyd
+*.pyo
+
+# Python 3.x bytecode
+__pycache__/
+
+# Virtual environment
+# This is crucial for your 'qa_bot_env'
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store # macOS specific
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variables file
+# VERY IMPORTANT: Do not commit your .env file!
+.env
+
+# Specific to Gradio or other web frameworks if they create temp files
+gradio_temp/
