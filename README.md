@@ -1,16 +1,6 @@
 # PDF QA Bot with RAG (Watsonx.ai)
 
 
-## Create a .env file with the following variables:
-- WATSONX_API_KEY="YOUR_IBM_CLOUD_API_KEY"  
-- WATSONX_PROJECT_ID="YOUR_WATSONX_PROJECT_ID"
-- GRADIO_SERVER_PORT="7861" # optional, if port 7860 is often busy
-
-## npm install
-## run project using: 
-- python qabot.py
-
-
 This project implements a Question-Answering (QA) bot that leverages Retrieval-Augmented Generation (RAG) to answer questions based on the content of an uploaded PDF document. 
 It uses the LangChain framework, integrated with IBM Watsonx.ai for Large Language Models (LLMs) and embeddings, and provides a user-friendly interface powered by Gradio.
 
