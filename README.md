@@ -1,12 +1,13 @@
 # PDF QA Bot with RAG (Watsonx.ai)
 
-# Create a .env file with the following variables:
+
+## Create a .env file with the following variables:
 - WATSONX_API_KEY="YOUR_IBM_CLOUD_API_KEY"  
 - WATSONX_PROJECT_ID="YOUR_WATSONX_PROJECT_ID"
 - GRADIO_SERVER_PORT="7861" # optional, if port 7860 is often busy
 
-# npm install
-# run project using: 
+## npm install
+## run project using: 
 - python qabot.py
 
 
